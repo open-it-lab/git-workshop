@@ -6,7 +6,12 @@
 
 # Structure of git (.git, sha1, blob, etc.)
 # Object types (blob, tree, commit, tag (HEAD,branch))
-# Layers (working tree, index, repo, remote)
+# Layers (working tree, staging area, repo, remote)
+# working tree -> "checked out" files to work on
+# staging area -> "limbo" to get files into a commit
+# commit -> a node in the repository tree
+# repo -> a tree of commits linked together
+# tag -> a pointer to a commit
 
 # How to get git manpages
 
